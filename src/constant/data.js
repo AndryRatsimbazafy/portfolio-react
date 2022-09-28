@@ -229,3 +229,78 @@ export const workData = [
     description: `Web application for scrapping the data all the client's websites.`,
   },
 ];
+
+export const persoExpData = [
+  {
+    title: "Hasinala, on a journey",
+    img: "img/personalExp/hasinala.png",
+    des: [
+      "Multi-type 2D video game on PC named 'Hasinala, on a journey' made for Game Jam+ 2020 (Platformer, Point and click, puzzle game, endless runner). Awarded 'Best Game of Africa' and nominated for world grand final.",
+      "Stack used: Unity Engine",
+    ],
+  },
+  {
+    title: "Times like these",
+    img: "img/personalExp/times.png",
+    des: [
+      "2D Plateformer video game on PC named 'Times like these' made for Global Game Jam 2019 (XBOX Controller required). Awarded for 1st place in Orange Madagascar Gaming Hackathon.",
+      "Stack used: Unity Engine",
+    ],
+  },
+  {
+    title: "Hafa",
+    img: "img/personalExp/hafa.png",
+    des: [
+      "2D Plateformer video game on PC named 'Hafa' made for Global Game Jam 2020.",
+      "Stack used: Unity Engine",
+    ],
+  },
+  {
+    title: "In Memory of",
+    img: "img/personalExp/memory.png",
+    des: [
+      "2D Plateformer video game on PC named 'In Memory of' made for US Embassy of Madagascar for the Cultural Heritage Game Jam 2021.",
+      "Stack used: Unity Engine",
+    ],
+  },
+  {
+    title: "Personal Portfolio",
+    img: "img/personalExp/portfolio.png",
+    des: [
+      "My personal portfolio for presenting who I am and what experiences and skills I have and what projects I made or been part of.",
+      "Stack used: ReactJs",
+    ],
+  },
+  {
+    title: "Assignments",
+    img: "img/personalExp/assignements.png",
+    des: [
+      "College Project. Website allowing students to to hand in their homework and teachers to consult the homework, to correct, grade and correct, grade, and give to students.",
+      "Stack used: Angular, NodeJs",
+    ],
+  },
+  {
+    title: "Machine Learning",
+    img: "img/personalExp/weka.png",
+    des: [
+      "College Project. Machine learning web application to make the prediction of the species of a flower from the data of its petals.",
+      "Stack used: Spring Boot, Java WEKA",
+    ],
+  },
+  {
+    title: "Anime Tracker",
+    img: "img/personalExp/anime.png",
+    des: [
+      "College Project. Mobile application to be able to see all the new anime with information information and trailers.",
+      "Stack used: Android Native, SQLite, Firebase",
+    ],
+  },
+  {
+    title: "Sport Bet Application",
+    img: "img/personalExp/bet.png",
+    des: [
+      "College Project. Online betting website with a mobile application. Web application and Windows application BackOffice.",
+      "Stack used: NodeJs, Angular, MongoDB, Oracle, Spring Boot, C# WinForm",
+    ],
+  },
+];

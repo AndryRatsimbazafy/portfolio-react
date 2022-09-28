@@ -18,13 +18,13 @@ const PersonalExpPopup = ({ open, close, data }) => {
                   style={{ backgroundImage: `url(${data && data.img})` }}
                 />
               </div>
-              <div className="news_main_title">
+              {/* <div className="news_main_title">
                 <h3>{data && data.title ? data.title : "title"}</h3>
                 <span>
                   <a href="#">{data && data.tag}</a>
                 </span>
                 <div />
-              </div>
+              </div> */}
               <div className="text">
                 {data &&
                   data.des &&
