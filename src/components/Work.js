@@ -6,100 +6,7 @@ import {
   VideoSideBar,
   YoutubeSideBar,
 } from "./WorkSideBar";
-
-const workData = [
-  {
-    img: "img/projects/project-1.jpg",
-    name: "Image Format",
-    format: "img",
-    project: "WEBSITE",
-    client: "ENVATO",
-    duration: "3 MONTHS",
-    technologies: ["HTML", "JAVASCRIPT"],
-    budget: "1550 USD",
-  },
-  {
-    img: "img/projects/project-2.jpg",
-    name: "Youtube Format",
-    format: "youtube",
-    project: "WEBSITE",
-    client: "ENVATO",
-    duration: "3 MONTHS",
-    technologies: ["HTML", "JAVASCRIPT"],
-    budget: "1550 USD",
-  },
-  {
-    img: "img/projects/project-3.jpg",
-    name: "Slider Format",
-    format: "slider",
-    project: "WEBSITE",
-    client: "ENVATO",
-    duration: "3 MONTHS",
-    technologies: ["HTML", "JAVASCRIPT"],
-    budget: "1550 USD",
-  },
-  {
-    img: "img/projects/project-4.jpg",
-    name: "Video Format",
-    format: "video",
-    project: "WEBSITE",
-    client: "ENVATO",
-    duration: "3 MONTHS",
-    technologies: ["HTML", "JAVASCRIPT"],
-    budget: "1550 USD",
-  },
-  {
-    img: "img/projects/project-5.jpg",
-    name: "Image Format",
-    format: "img",
-    project: "WEBSITE",
-    client: "ENVATO",
-    duration: "3 MONTHS",
-    technologies: ["HTML", "JAVASCRIPT"],
-    budget: "1550 USD",
-  },
-  {
-    img: "img/projects/project-6.jpg",
-    name: "Image Format",
-    format: "img",
-    project: "WEBSITE",
-    client: "ENVATO",
-    duration: "3 MONTHS",
-    technologies: ["HTML", "JAVASCRIPT"],
-    budget: "1550 USD",
-  },
-  {
-    img: "img/projects/project-7.jpg",
-    name: "Image Format",
-    format: "img",
-    project: "WEBSITE",
-    client: "ENVATO",
-    duration: "3 MONTHS",
-    technologies: ["HTML", "JAVASCRIPT"],
-    budget: "1550 USD",
-  },
-  {
-    img: "img/projects/project-8.jpg",
-    name: "Image Format",
-    format: "img",
-    project: "WEBSITE",
-    client: "ENVATO",
-    duration: "3 MONTHS",
-    technologies: ["HTML", "JAVASCRIPT"],
-    budget: "1550 USD",
-  },
-  {
-    img: "img/projects/project-9.jpg",
-    name: "Image Format",
-    format: "img",
-    project: "WEBSITE",
-    client: "ENVATO",
-    duration: "3 MONTHS",
-    technologies: ["HTML", "JAVASCRIPT"],
-    budget: "1550 USD",
-  },
-];
-
+import { workData } from "../constant/data";
 const Work = () => {
   const { nav } = useContext(NavContext);
   const [active, setActive] = useState(null);
@@ -117,8 +24,7 @@ const Work = () => {
               my <span>portfolio</span>
             </h2>
             <span className="title-head-subtitle">
-              a few recent design and coding projects. Want to see more? Email
-              me.
+              a few recent project i've worked on my professional career.
             </span>
           </div>
           {/* Main Heading Ends */}
@@ -176,7 +82,7 @@ const Work = () => {
             {/* Main Content Ends */}
             {/* Project Details Starts */}
             <div className="projects-info row">
-              <div className="col-12 col-sm-6 p-none">
+              <div className="col-20 col-sm-12 p-none">
                 <h3 className="font-weight-600 uppercase">{work.name}</h3>
                 <ul className="project-details">
                   <li>
@@ -203,13 +109,9 @@ const Work = () => {
                   </li>
                   <li>
                     <i className="fa fa-hourglass-o" />
-                    <span className="font-weight-400 project-label">
-                      {" "}
-                      Duration{" "}
-                    </span>
-                    :{" "}
+                    <span className="font-weight-400"> Description </span>:{" "}
                     <span className="font-weight-600 uppercase">
-                      {work.duration}
+                      {work.description}
                     </span>
                   </li>
                   <li>
@@ -237,14 +139,16 @@ const Work = () => {
                     </span>
                   </li>
                 </ul>
-                <a href="#" className="btn">
-                  <span>
-                    <i className="fa fa-external-link" />
-                    preview
-                  </span>
-                </a>
+                {work.url && (
+                  <a href={work.url} className="btn" target={"_blank"}>
+                    <span>
+                      <i className="fa fa-external-link" />
+                      preview
+                    </span>
+                  </a>
+                )}
               </div>
-              <div className="col-6 p-none text-right">
+              {/* <div className="col-6 p-none text-right">
                 <a
                   href="#"
                   className="btn btn-secondary close-project"
@@ -255,7 +159,7 @@ const Work = () => {
                     Close
                   </span>
                 </a>
-              </div>
+              </div> */}
             </div>
             {/* Project Details Ends */}
           </div>

@@ -139,3 +139,93 @@ export const mySkills = [
     value: 80,
   },
 ];
+
+export const workData = [
+  {
+    img: "img/projects/virtual-clinic.png",
+    name: "Virtual Clinic",
+    format: "img",
+    project: "WEBSITE",
+    client: "Skinceuticals",
+    technologies: ["Angular (Ngrx)", "NodeJs (ExpressJs)", "MongoDB"],
+    description: `Web application for an interactive virtual clinic for an event presenting pharmaceutical treatment. 
+      Possibility to visit the rooms, to see the conferences in the auditorium and to play mini games between the different phases.`,
+    url: "https://skinceuticalsvirtualclinic.com/auth/signin",
+  },
+  {
+    img: "img/projects/virtual-conference.png",
+    name: "Virtual Conference",
+    format: "img",
+    project: "WEBSITE",
+    client: "Skinceuticals",
+    technologies: ["Angular (Ngrx)", "NodeJs (ExpressJs)", "MongoDB"],
+    description: `Skinceuticals Web application for an interactive virtual conference for an event presenting pharmaceutical products and medical advice. 
+    Possibility to visit the rooms, to see the conferences in the auditorium and to play mini games between the different phases.`,
+    url: "https://masterphisicaneliteportfolio.com/",
+  },
+  {
+    img: "img/projects/salon.png",
+    name: "Interactive Virtual expo",
+    format: "img", //youtube
+    project: "WEBSITE",
+    client: "W3D Madagascar",
+    technologies: ["Unity 3D", "Angular", "NodeJS", "MongoDB"],
+    description: `Web application for a virtual trade show (for targeted customer not for everyone) for an event gathering building and fitting professionals. 
+    Possibility to navigate in the show, to visit the stands (see the contents and discuss with the salesmen).`,
+  },
+  {
+    img: "img/projects/my-connectig.png",
+    name: "Commercials space",
+    format: "img",
+    project: "WEBSITE",
+    client: "My Connecting",
+    technologies: ["ReactJs (Redux)", "Material UI"],
+    description: `Web application for My Connecting's commercials. Help for managing commercials, formations, conventions and can deliver stats.`,
+  },
+  {
+    img: "img/projects/tailora.png",
+    name: "Tailora",
+    format: "img",
+    project: "WEBSITE",
+    client: "W3D Madagascar",
+    technologies: ["Angular (Ngrx)", "NodeJs (ExpressJs)", "MongoDB"],
+    description: `Web application for managing and consulting internal projects such as virtual tours or 360° models.`,
+  },
+  {
+    img: "img/projects/gtm.png",
+    name: "GTM The Full Room",
+    format: "img",
+    project: "WEBSITE",
+    client: "W3D Madagascar",
+    technologies: ["ReactJs", "NodeJs (NestJs)", "MongoDB"],
+    description: `A project management web application for GTM The full room. Manage the project by adding, deleting, updating, commenting, etc...`,
+    url: "https://thefullroom.pimpmyroom.fr/",
+  },
+  {
+    img: "img/projects/jigsaw.png",
+    name: "Jigsaw Puzzle",
+    format: "img",
+    project: "MOBILE APP",
+    client: "Eufonie Madagascar",
+    technologies: ["Fultteur (Asyc Redux)", "SQLite", "Firebase"],
+    description: `Mobile puzzle game for Android. Possibility to buy levels or play with free ones. Gameplay development.`,
+  },
+  {
+    img: "img/projects/edm.png",
+    name: "EDM TBQ",
+    format: "img",
+    project: "WEBSITE",
+    client: "PULSE Axian Group",
+    technologies: ["PHP (Symfony 3)", "MySQL", "AJAX & TWIG"],
+    description: `Web application for managing EDM company reports. Possibility of importing and exporting reports for processing by a BI application.`,
+  },
+  {
+    img: "img/projects/wines.png",
+    name: "Scrapping Wines",
+    format: "img",
+    project: "WEB SCRAPPING",
+    client: "Eufonie Madagascar",
+    technologies: ["NodeJs (ExpressJs)", "AWS"],
+    description: `Web application for scrapping the data all the client's websites.`,
+  },
+];
