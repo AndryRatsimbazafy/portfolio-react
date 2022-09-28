@@ -1,6 +1,7 @@
 import { useContext } from "react";
 import NavContext from "../context/navContext";
 import AnimationText from "./AnimationText";
+import { myDescription } from "../constant/data";
 const Home = () => {
   const { nav, changeNav } = useContext(NavContext);
   return (
@@ -16,12 +17,7 @@ const Home = () => {
           <h3>Hi there !</h3>
           <AnimationText />
           <p>
-            {`I'm`} Andry Patrick Ratsimbazafy. I’m a fullstack developer with 3
-            YEARS of experiences, specialised in building (and occasionally
-            designing) web or desktop applications. I have a master's degree
-            (MBDS) from University Côte d'Asur of Nice, France. I also work as a
-            Freelancer on software and game development. I gained experience in
-            the area of development through the companies in which I worked.
+            {`I'm`} {myDescription.home}
           </p>
           <div className="call-to-actions-home">
             <div className="text-left">

@@ -5,7 +5,6 @@ import NavContext from "../context/navContext";
 import useWindowSize from "../useWindowSize";
 import BackMobile from "./BackMobile";
 import Header from "./Header";
-import Switcher from "./Switcher";
 
 const Layouts = ({ children, bodyCls, extraPage, light }) => {
   useEffect(() => {
