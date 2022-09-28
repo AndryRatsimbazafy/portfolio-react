@@ -30,13 +30,11 @@ const Layouts = ({ children, bodyCls, extraPage, light }) => {
           href={`css/skins/${color}.css`}
           rel="stylesheet"
         />{" "}
-        <title>Istanbul - Personal Portfolio</title>
+        <title>Andry Rts - Personal Portfolio</title>
       </Head>
       <div className="page animated" style={{ animationDuration: "500ms" }}>
         {/* <Switcher /> */}
-        {/* Header Starts */}
         {!extraPage && <Header light={light} />}
-        {/* Main Content Starts */}{" "}
         {extraPage ? (
           children
         ) : (
@@ -44,7 +42,6 @@ const Layouts = ({ children, bodyCls, extraPage, light }) => {
             id="main"
             className={`${width < 1025 ? (mobileMenu ? "open" : "") : ""}`}
           >
-            {/* Back To Home Starts [ONLY MOBILE] */}
             <BackMobile
               changeMobileMenu={changeMobileMenu}
               mobileMenu={mobileMenu}

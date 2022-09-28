@@ -12,13 +12,13 @@ const menus = [
     name: "my Portfolio",
     id: "work",
   },
+  { icon: "fa fa-comments", dkMenuName: "Personal Exp", name: "my Blog", id: "blog" },
   {
     icon: "fa fa-envelope-open",
     dkMenuName: "Contact",
     name: "get in touch",
     id: "contact",
-  },
-  { icon: "fa fa-comments", dkMenuName: "Blog", name: "my Blog", id: "blog" },
+  }
 ];
 
 const Header = ({ light }) => {

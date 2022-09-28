@@ -1,4 +1,4 @@
-const BlogPopup = ({ open, close, data }) => {
+const PersonalExpPopup = ({ open, close, data }) => {
   return (
     <div className="modal__container">
       <div className={`istambul_tm_modalbox ${open ? "opened" : ""}`}>
@@ -37,4 +37,4 @@ const BlogPopup = ({ open, close, data }) => {
     </div>
   );
 };
-export default BlogPopup;
+export default PersonalExpPopup;

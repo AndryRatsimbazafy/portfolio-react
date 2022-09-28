@@ -1,39 +1,27 @@
 import { useContext } from "react";
-import Poster from "../../public/img/bg-video-poster.jpg";
 import NavContext from "../context/navContext";
 import AnimationText from "./AnimationText";
-const Home = ({ leftImg, video, leftImgSrc }) => {
+const Home = () => {
   const { nav, changeNav } = useContext(NavContext);
   return (
     <section id="home" className={`${nav === "home" ? "active" : ""}`}>
       {/* Text Rotator Starts */}
       <div className="main-text-container">
-        {video && (
-          <video className="bg-video" autoPlay loop muted poster={Poster}>
-            <source
-              src={require("../../public/img/video.mp4")}
-              type="video/mp4"
-            />
-            <source
-              src={require("../../public/img/video.mp4")}
-              type="video/ogg"
-            />
-          </video>
-        )}
-        {leftImg && (
-          <img
-            className="leftimagepicture"
-            src={`${leftImgSrc ? leftImgSrc : "img/leftimage-dark.jpg"}`}
-            alt=""
-          />
-        )}
+        <img
+          className="leftimagepicture"
+          src={`img/andry.png`}
+          alt=""
+        />
         <div className="main-text" id="selector">
           <h3>Hi there !</h3>
           <AnimationText />
           <p>
-            {`I'm`} a Freelance UI/UX Designer and Developer based in London,
-            England. I strives to build immersive and beautiful web applications
-            through carefully crafted code and user-centric design.
+            {`I'm`} Andry Patrick Ratsimbazafy. I’m a fullstack developer with 3
+            YEARS of experiences, specialised in building (and occasionally
+            designing) web or desktop applications. I have a master's degree
+            (MBDS) from University Côte d'Asur of Nice, France. I also work as a
+            Freelancer on software and game development. I gained experience in
+            the area of development through the companies in which I worked.
           </p>
           <div className="call-to-actions-home">
             <div className="text-left">

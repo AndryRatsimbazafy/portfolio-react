@@ -1,6 +1,6 @@
 import { Fragment, useContext, useState } from "react";
 import NavContext from "../context/navContext";
-import BlogPopup from "./BlogPopup";
+import PersonalExpPopup from "./PersonalExpPopup";
 const data = [
   {
     title: "create a wordpress theme from scratch",
@@ -48,7 +48,7 @@ const data = [
   },
 ];
 
-const Blog = () => {
+const PersonalExp = () => {
   const { nav } = useContext(NavContext);
   const [modal, setModal] = useState(false);
   const [activeData, setActiveData] = useState({});
@@ -58,7 +58,7 @@ const Blog = () => {
   };
   return (
     <Fragment>
-      <BlogPopup open={modal} close={() => setModal(false)} data={activeData} />
+      <PersonalExpPopup open={modal} close={() => setModal(false)} data={activeData} />
       <section id="blog" className={`${nav === "blog" ? "active" : ""}`}>
         <div className="container page-title text-center">
           <h2 className="text-center">
@@ -109,4 +109,4 @@ const Blog = () => {
     </Fragment>
   );
 };
-export default Blog;
+export default PersonalExp;
