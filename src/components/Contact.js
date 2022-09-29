@@ -1,5 +1,6 @@
 import emailjs from "emailjs-com";
 import { useContext, useState } from "react";
+import { myData } from "../constant/data";
 import NavContext from "../context/navContext";
 const Contact = () => {
   const { nav } = useContext(NavContext);
@@ -67,7 +68,7 @@ const Contact = () => {
                     {" "}
                     <span className="contact-title">Phone</span>
                     <i className="fa fa-whatsapp" />
-                    <span className="contact-content">+216 21 184 010</span>
+                    <span className="contact-content">{myData.phone}</span>
                   </h6>
                 </li>
                 <li>
@@ -75,21 +76,21 @@ const Contact = () => {
                     {" "}
                     <span className="contact-title">email</span>
                     <i className="fa fa-envelope-o fs-14" />
-                    <span className="contact-content">info@daria.ua</span>
+                    <span className="contact-content">{myData.email}</span>
                   </h6>
                 </li>
                 <li>
                   <h6 className="font-weight-600">
-                    <span className="contact-title">instagram</span>
-                    <i className="fa fa-instagram" />
-                    <span className="contact-content">daria.198</span>
+                    <span className="contact-title">LinledIn</span>
+                    <i className="fa fa-linkedin" />
+                    <span className="contact-content">{myData.linkedIn}</span>
                   </h6>
                 </li>
                 <li>
                   <h6 className="font-weight-600">
-                    <span className="contact-title">Dribbble </span>
+                    <span className="contact-title">Skype </span>
                     <i className="fa fa-dribbble" />
-                    <span className="contact-content">daria.dribble</span>
+                    <span className="contact-content">{myData.skype}</span>
                   </h6>
                 </li>
               </ul>
@@ -98,23 +99,18 @@ const Contact = () => {
                 <h6 className="font-weight-600 uppercase">Social Profiles</h6>
                 <ul className="list-inline social social-intro text-center p-none">
                   <li className="facebook">
-                    <a title="Facebook" href="#">
+                    <a title="Facebook" href="https://www.facebook.com/AndryRatsimbazafy.56789" target={"_blank"}>
                       <i className="fa fa-facebook" />
                     </a>
                   </li>
-                  <li className="twitter">
-                    <a title="Twitter" href="#">
-                      <i className="fa fa-twitter" />
+                  <li className="instagram">
+                    <a title="Instagram" href="https://www.instagram.com/andry.rts/" target={"_blank"}>
+                      <i className="fa fa-instagram" />
                     </a>
                   </li>
-                  <li className="youtube">
-                    <a title="Youtube" href="#">
-                      <i className="fa fa-youtube" />
-                    </a>
-                  </li>
-                  <li className="dribbble">
-                    <a title="Dribbble" href="#">
-                      <i className="fa fa-dribbble" />
+                  <li className="linkedin">
+                    <a title="LinkedIn" href="https://www.linkedin.com/in/andry-patrick-ratsimbazafy-41b744182/" target={"_blank"}>
+                      <i className="fa fa-linkedin" />
                     </a>
                   </li>
                 </ul>
