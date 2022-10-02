@@ -794,7 +794,7 @@ html:not(.lt-ie10) .not-animated {
   }
 
   .cd-stretchy-nav ul li:nth-of-type(4) a::after {
-    content: "\f0e6";
+    content: "\f00b";
   }
 
   .cd-stretchy-nav ul li:nth-of-type(5) a::after {
