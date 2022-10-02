@@ -122,20 +122,7 @@ const Work = () => {
                     </span>{" "}
                     :{" "}
                     <span className="font-weight-600 uppercase">
-                      {work.technologies.map((technologie, i) => (
-                        <Fragment key={i}>{technologie}</Fragment>
-                      ))}
-                    </span>
-                  </li>
-                  <li>
-                    <i className="fa fa-money" />{" "}
-                    <span className="font-weight-400 project-label">
-                      {" "}
-                      Budget
-                    </span>{" "}
-                    :{" "}
-                    <span className="font-weight-600 uppercase">
-                      {work.budget}
+                      {work.technologies.join(", ")}
                     </span>
                   </li>
                 </ul>

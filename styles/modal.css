@@ -1280,6 +1280,9 @@
   opacity: 0;
   min-width: 100%;
 }
+.top_image {
+  height: 40vh;
+}
 .modal__container
   .istambul_tm_modalbox
   .portfolio_popup_details
@@ -2218,9 +2221,9 @@
     width: 20px;
     height: 20px;
   } */
-  .modal__container .istambul_tm_modalbox .close a i {
-    /* font-size: 10px; */
-  }
+  /* .modal__container .istambul_tm_modalbox .close a i {
+    /* font-size: 10px;
+  } */
   .modal__container .circular_progress_bar ul li {
     width: 50%;
   }
