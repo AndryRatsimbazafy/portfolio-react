@@ -12,7 +12,7 @@ const menus = [
     name: "my Portfolio",
     id: "work",
   },
-  { icon: "fa fa-tasks", dkMenuName: "Personal Exp", name: "my Personal Exp", id: "blog" },
+  { icon: "fa fa-rectangle-history", dkMenuName: "Projects", name: "my Projects", id: "blog" },
   {
     icon: "fa fa-envelope-open",
     dkMenuName: "Contact",
