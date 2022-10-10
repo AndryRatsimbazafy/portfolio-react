@@ -49,7 +49,7 @@ function MyApp({ Component, pageProps }) {
           rel="stylesheet"
         />
         <link rel="stylesheet" type="text/css" href="css/styleswitcher.css" />
-        <title>Andry Rts - Personal Portfolio</title>
+        <title>Andry Ratsimbazafy - Personal Portfolio</title>
       </Head>
       <NavState>
         <ColorState>

@@ -130,7 +130,7 @@ const Work = () => {
                   <a href={work.url} className="btn" target={"_blank"}>
                     <span>
                       <i className="fa fa-external-link" />
-                      preview
+                      view project
                     </span>
                   </a>
                 )}

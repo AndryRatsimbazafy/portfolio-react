@@ -32,6 +32,13 @@ export const myData = {
 
 export const myWorkExperience = [
   {
+    date: "May 2022 - Today",
+    job: "Co-Founder & FullStack Developer",
+    company: "RAY",
+    description: `Implementation of the platform requested by the client. 
+    Set up business plan. Discussion with the customer. Drafting of technical documents. Ensure the good atmosphere of the team.`,
+  },
+  {
     date: "Aug 2022 - Today",
     job: "FrontEnd Developer",
     company: "BOCASAY",
@@ -142,6 +149,17 @@ export const mySkills = [
 
 export const workData = [
   {
+    img: "img/projects/rse.png",
+    name: "Salon RSE 2022",
+    format: "img",
+    project: "WEBSITE",
+    client: "Buy Your Way",
+    technologies: ["Angular (Ngrx)", "NodeJs (ExpressJs)", "MongoDB"],
+    description: `Digital platform for the CSR and sustainable development 2022 show. 
+    Possibility to visit the stands, discuss with sales representatives and interact with the elements, see live conferences and replays.`,
+    url: "https://salonrseidd.vibees.net/",
+  },
+  {
     img: "img/projects/virtual-clinic.png",
     name: "Virtual Clinic",
     format: "img",
@@ -232,12 +250,22 @@ export const workData = [
 
 export const persoExpData = [
   {
+    title: "Salon RSE 2022",
+    img: "img/personalExp/rse.png",
+    des: [
+      `First project of our startup "RAY". This is a digital platform for the CSR and Sustainable Development 2022 show. Possibility to visit the stands, chat with salespeople and interact with the elements, see live conferences and replays.`,
+      "Stack used: Angular (Ngrx), NodeJs (ExpressJs), MongoDB",
+    ],
+    url: "https://salonrseidd.vibees.net/"
+  },
+  {
     title: "Hasinala, on a journey",
     img: "img/personalExp/hasinala.png",
     des: [
       "Multi-type 2D video game on PC named 'Hasinala, on a journey' made for Game Jam+ 2020 (Platformer, Point and click, puzzle game, endless runner). Awarded 'Best Game of Africa' and nominated for world grand final.",
       "Stack used: Unity Engine",
     ],
+    url: "https://zulmianah.itch.io/hasinala-on-a-journey"
   },
   {
     title: "Times like these",
@@ -246,6 +274,7 @@ export const persoExpData = [
       "2D Plateformer video game on PC named 'Times like these' made for Global Game Jam 2019 (XBOX Controller required). Awarded for 1st place in Orange Madagascar Gaming Hackathon.",
       "Stack used: Unity Engine",
     ],
+    url: "https://globalgamejam.org/2019/games/times-these"
   },
   {
     title: "Hafa",
@@ -254,6 +283,7 @@ export const persoExpData = [
       "2D Plateformer video game on PC named 'Hafa' made for Global Game Jam 2020.",
       "Stack used: Unity Engine",
     ],
+    url: "https://globalgamejam.org/2020/games/hafa-4"
   },
   {
     title: "In Memory of",
@@ -262,6 +292,7 @@ export const persoExpData = [
       "2D Plateformer video game on PC named 'In Memory of' made for US Embassy of Madagascar for the Cultural Heritage Game Jam 2021.",
       "Stack used: Unity Engine",
     ],
+    url: "https://zulmianah.itch.io/in-memory-of"
   },
   {
     title: "Personal Portfolio",
@@ -270,6 +301,7 @@ export const persoExpData = [
       "My personal portfolio for presenting who I am and what experiences and skills I have and what projects I made or been part of.",
       "Stack used: ReactJs",
     ],
+    url: "https://andry-rts.com/"
   },
   {
     title: "Assignments",

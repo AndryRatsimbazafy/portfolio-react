@@ -89,7 +89,7 @@ const Contact = () => {
                 <li>
                   <h6 className="font-weight-600">
                     <span className="contact-title">Skype </span>
-                    <i className="fa fa-dribbble" />
+                    <i className="fa fa-skype" />
                     <span className="contact-content">{myData.skype}</span>
                   </h6>
                 </li>

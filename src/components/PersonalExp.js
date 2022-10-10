@@ -45,7 +45,7 @@ const PersonalExp = () => {
                   </a>
                   {/* Excerpt Starts */}
                   <div className="blog-excerpt">
-                    <p>{data.des[0].substring(0, 50)}... </p>
+                    <p>{data.des[0].substring(0, 70)}... </p>
                     <a
                       href="#"
                       onClick={() => onClick(i)}

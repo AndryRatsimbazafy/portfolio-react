@@ -18,17 +18,22 @@ const PersonalExpPopup = ({ open, close, data }) => {
                   style={{ backgroundImage: `url(${data && data.img})` }}
                 />
               </div>
-              {/* <div className="news_main_title">
-                <h3>{data && data.title ? data.title : "title"}</h3>
-                <span>
-                  <a href="#">{data && data.tag}</a>
-                </span>
-                <div />
-              </div> */}
+              <div className="news_main_title">
+                <h3>{data && data.title}</h3>
+              </div>
               <div className="text">
                 {data &&
                   data.des &&
                   data.des.map((des, i) => <p key={i}>{des}</p>)}
+                <br/>
+                {data.url && (
+                  <a href={data.url} className="btn" target={"_blank"} style={{color: "white"}}>
+                    <span>
+                      <i className="fa fa-external-link" />
+                      view project
+                    </span>
+                  </a>
+                )}
               </div>
             </div>
           </div>

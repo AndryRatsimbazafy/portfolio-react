@@ -30,7 +30,7 @@ const Layouts = ({ children, bodyCls, extraPage, light }) => {
           rel="stylesheet"
         />{" "}
         <link rel="icon" href="img/logo.png"></link>
-        <title>Andry Rts - Personal Portfolio</title>
+        <title>Andry Ratsimbazafy - Personal Portfolio</title>
       </Head>
       <div className="page animated" style={{ animationDuration: "500ms" }}>
         {/* <Switcher /> */}
